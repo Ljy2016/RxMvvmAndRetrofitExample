@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:id="@+id/fuli_iv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scaleType="centerInside"-->
+        <!--fresco:viewAspectRatio="1.77" />-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/fuli_iv_mvp_dagger2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fresco:actualImageScaleType="focusCrop" />
+
+        <TextView
+            android:id="@+id/fuli_tv_mvp_dagger2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#ffffff"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+</layout><!--android:text="@{fuli.data.substring(0,10)}"-->
